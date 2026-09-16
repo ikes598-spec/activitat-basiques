@@ -53,6 +53,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 02 | `NumerosAleatoris` | _pendent_ |
 | 03 | `PositiuNegatiuZeroBucle` | _pendent_ |
 | 04 | `TemperaturaBucleN` | _pendent_ |
+| 05 | `HoresMinutsSegons` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -163,4 +164,31 @@ Entra la temperatura:
 Entra la temperatura:
 68
 68.0 °F equivalen a 20.0 °C
+```
+
+#### 05 — Hores, minuts i segons, en bucle (`HoresMinutsSegons`)
+Repeteix 4 vegades: demana per teclat un número de segons i mostra les hores, els
+minuts i els segons restants que representa.
+
+```
+Entra els segons:
+41668
+Hores: 11
+Minuts: 34
+Segons: 28
+Entra els segons:
+3661
+Hores: 1
+Minuts: 1
+Segons: 1
+Entra els segons:
+7325
+Hores: 2
+Minuts: 2
+Segons: 5
+Entra els segons:
+90000
+Hores: 25
+Minuts: 0
+Segons: 0
 ```
