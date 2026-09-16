@@ -38,7 +38,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 
 1. Comptadors
 2. Condicions d'acabament simples
-3. _(pendent)_
+3. For
 4. _(pendent)_
 5. _(pendent)_
 6. _(pendent)_
@@ -73,7 +73,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 17 | `GranIPetit` | _pendent_ |
 | 18 | `NombreDeXifres` | _pendent_ |
 
-### Categoria 3 — _(pendent)_
+### Categoria 3 — For
 
 _(pendent)_
 
