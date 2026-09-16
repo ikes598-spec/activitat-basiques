@@ -93,7 +93,9 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 
 ### Categoria 5 — Condicions d'acabament complexes
 
-_(pendent)_
+| #  | Classe | Puntuació |
+|----|--------|-----------|
+| 27 | `LoginTresIntents` | _pendent_ |
 
 ### Categoria 6 — _(pendent)_
 
@@ -622,4 +624,49 @@ Entra la nota de l'alumne 4:
 La mitjana de les notes és: 6.5
 La nota més gran és: 8.0
 La nota més petita és: 5.0
+```
+
+### Categoria 5 — Condicions d'acabament complexes
+
+#### 27 — Login amb 3 intents (`LoginTresIntents`)
+En dues variables del programa es guarden el `username` i el `password` d'un
+usuari (`cponts` / `qw34T1234`). Simula una aplicació que demani per teclat el nom
+d'usuari i la contrasenya, i digui si són correctes. El programa permet 3 intents;
+si no s'encerta en cap, mostra "Usuari bloquejat!".
+
+⛔ No es pot fer servir `break` (ni similar), ni alterar el comptador d'intents per
+forçar la sortida del bucle: la condició de sortida del `while` ha de combinar
+"encara queden intents" **i** "encara no s'ha encertat".
+
+```
+Introdueix el nom d'usuari:
+aaa
+Introdueix la contrasenya:
+bbb
+Usuari o contrasenya incorrectes.
+Introdueix el nom d'usuari:
+cponts
+Introdueix la contrasenya:
+qw34T1234
+Usuari i contrasenya correctes!
+```
+
+Si s'esgoten els 3 intents sense encertar:
+```
+Introdueix el nom d'usuari:
+aaa
+Introdueix la contrasenya:
+bbb
+Usuari o contrasenya incorrectes.
+Introdueix el nom d'usuari:
+ccc
+Introdueix la contrasenya:
+ddd
+Usuari o contrasenya incorrectes.
+Introdueix el nom d'usuari:
+eee
+Introdueix la contrasenya:
+fff
+Usuari o contrasenya incorrectes.
+Usuari bloquejat!
 ```
