@@ -61,6 +61,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 10 | `NumerosDeNa1` | _pendent_ |
 | 11 | `CaraCreu` | _pendent_ |
 | 12 | `ParellsISenarsAleatoris` | _pendent_ |
+| 13 | `TaulaMultiplicarErrors` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -342,3 +343,34 @@ Quants números vols generar?
 Han sortit 7 números parells i 8 senars
 ```
 (el total de parells + senars sempre suma N — la sortida concreta varia cada execució.)
+
+#### 13 — Taula de multiplicar, amb comptador d'errors (`TaulaMultiplicarErrors`)
+Demana la taula de multiplicar (de l'1 al 10) d'un número entrat per teclat: per
+cada multiplicació, l'usuari escriu el resultat i el programa diu si és correcte o
+incorrecte. Compta els errors comesos.
+
+```
+Entra un número:
+6
+6 × 1 = 6
+correcte!
+6 × 2 = 10
+incorrecte!
+6 × 3 = 18
+correcte!
+6 × 4 = 24
+correcte!
+6 × 5 = 30
+correcte!
+6 × 6 = 30
+incorrecte!
+6 × 7 = 42
+correcte!
+6 × 8 = 48
+correcte!
+6 × 9 = 54
+correcte!
+6 × 10 = 60
+correcte!
+Has comès 2 errors!
+```
