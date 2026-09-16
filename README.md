@@ -32,7 +32,7 @@ són a `src/main/java/`.
 Les activitats es reparteixen en 6 categories, però es numeren seqüencialment des de la
 01 (la numeració **no torna a començar** a cada categoria nova).
 
-1. _(pendent)_
+1. Comptadors
 2. _(pendent)_
 3. _(pendent)_
 4. _(pendent)_
@@ -41,8 +41,59 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 
 ## Activitats (_puntuació pendent de tancar_)
 
-_(Encara no s'ha afegit cap categoria.)_
+### Categoria 1 — Comptadors
+
+| #  | Classe | Puntuació |
+|----|--------|-----------|
+| 01 | `TemperaturaBucle` | _pendent_ |
+
+### Categoria 2 — _(pendent)_
+
+_(pendent)_
+
+### Categoria 3 — _(pendent)_
+
+_(pendent)_
+
+### Categoria 4 — _(pendent)_
+
+_(pendent)_
+
+### Categoria 5 — _(pendent)_
+
+_(pendent)_
+
+### Categoria 6 — _(pendent)_
+
+_(pendent)_
 
 ## Enunciats
 
-_(Pendent.)_
+### Categoria 1 — Comptadors
+
+#### 01 — Temperatures en bucle (`TemperaturaBucle`)
+Escriu un programa que demani a l'usuari, per teclat, el valor de 5 temperatures en
+graus Fahrenheit (una per una, amb un bucle) i mostri per cadascuna l'equivalent en
+graus Celsius:
+
+```java
+temperatureC = ((temperatureF - 32) * 5) / 9;
+```
+
+```
+Introdueix la temperatura en Fahrenheit (1/5):
+212
+212.0 °F equivalen a 100.0 °C
+Introdueix la temperatura en Fahrenheit (2/5):
+32
+32.0 °F equivalen a 0.0 °C
+Introdueix la temperatura en Fahrenheit (3/5):
+-40
+-40.0 °F equivalen a -40.0 °C
+Introdueix la temperatura en Fahrenheit (4/5):
+68
+68.0 °F equivalen a 20.0 °C
+Introdueix la temperatura en Fahrenheit (5/5):
+176
+176.0 °F equivalen a 80.0 °C
+```
