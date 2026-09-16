@@ -89,6 +89,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 23 | `SumaMesDe21` | _pendent_ |
 | 24 | `MultiplicarAmbSumes` | _pendent_ |
 | 25 | `MesGranIMesPetit` | _pendent_ |
+| 26 | `NotesMitjanaMaxMin` | _pendent_ |
 
 ### Categoria 5 — _(pendent)_
 
@@ -600,4 +601,25 @@ Introdueix un número:
 3
 ...
 El número més gran és: 15 i el més petit: 2
+```
+
+#### 26 — Mitjana, nota més gran i nota més petita (`NotesMitjanaMaxMin`)
+Demana per teclat el número d'alumnes del grup i, per a cadascun, la seva nota.
+Calcula i mostra la mitjana de les notes, la nota més gran i la nota més petita
+(combinant l'acumulador de la suma amb la comparació de màxim i mínim).
+
+```
+Quants alumnes hi ha al grup?
+4
+Entra la nota de l'alumne 1:
+5
+Entra la nota de l'alumne 2:
+7
+Entra la nota de l'alumne 3:
+8
+Entra la nota de l'alumne 4:
+6
+La mitjana de les notes és: 6.5
+La nota més gran és: 8.0
+La nota més petita és: 5.0
 ```
