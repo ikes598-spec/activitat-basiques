@@ -56,6 +56,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 05 | `HoresMinutsSegons` | _pendent_ |
 | 06 | `NumerosDe1aN` | _pendent_ |
 | 07 | `TaulaDel6` | _pendent_ |
+| 08 | `TaulaMultiplicar` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -233,4 +234,22 @@ Imprimeix la taula de multiplicar del 6, de l'1 al 10, amb el format següent:
 6 × 8 = 48
 6 × 9 = 54
 6 × 10 = 60
+```
+
+#### 08 — Taula de multiplicar d'un número, per teclat (`TaulaMultiplicar`)
+Imprimeix la taula de multiplicar d'un número introduït per teclat, de l'1 al 10.
+
+```
+Entra un número:
+7
+7 × 1 = 7
+7 × 2 = 14
+7 × 3 = 21
+7 × 4 = 28
+7 × 5 = 35
+7 × 6 = 42
+7 × 7 = 49
+7 × 8 = 56
+7 × 9 = 63
+7 × 10 = 70
 ```
