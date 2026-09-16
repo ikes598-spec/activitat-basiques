@@ -43,75 +43,75 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 5. Condicions d'acabament complexes
 6. Bucles encaixats
 
-## Activitats (_puntuació pendent de tancar_)
+## Activitats (10 punts cadascuna · total 380)
 
 ### Categoria 1 — Comptadors
 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
-| 01 | `TemperaturaBucle` | _pendent_ |
-| 02 | `NumerosAleatoris` | _pendent_ |
-| 03 | `PositiuNegatiuZeroBucle` | _pendent_ |
-| 04 | `TemperaturaBucleN` | _pendent_ |
-| 05 | `HoresMinutsSegons` | _pendent_ |
-| 06 | `NumerosDe1aN` | _pendent_ |
-| 07 | `TaulaDel6` | _pendent_ |
-| 08 | `TaulaMultiplicar` | _pendent_ |
-| 09 | `MajusculaMinuscula` | _pendent_ |
-| 10 | `NumerosDeNa1` | _pendent_ |
-| 11 | `CaraCreu` | _pendent_ |
-| 12 | `ParellsISenarsAleatoris` | _pendent_ |
-| 13 | `TaulaMultiplicarErrors` | _pendent_ |
+| 01 | `TemperaturaBucle` | 10 |
+| 02 | `NumerosAleatoris` | 10 |
+| 03 | `PositiuNegatiuZeroBucle` | 10 |
+| 04 | `TemperaturaBucleN` | 10 |
+| 05 | `HoresMinutsSegons` | 10 |
+| 06 | `NumerosDe1aN` | 10 |
+| 07 | `TaulaDel6` | 10 |
+| 08 | `TaulaMultiplicar` | 10 |
+| 09 | `MajusculaMinuscula` | 10 |
+| 10 | `NumerosDeNa1` | 10 |
+| 11 | `CaraCreu` | 10 |
+| 12 | `ParellsISenarsAleatoris` | 10 |
+| 13 | `TaulaMultiplicarErrors` | 10 |
 
 ### Categoria 2 — Condicions d'acabament simples
 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
-| 14 | `GeneraFinsAl12` | _pendent_ |
-| 15 | `SequenciaDe3en3` | _pendent_ |
-| 16 | `PositiuNegatiuFinsZero` | _pendent_ |
-| 17 | `GranIPetit` | _pendent_ |
-| 18 | `NombreDeXifres` | _pendent_ |
+| 14 | `GeneraFinsAl12` | 10 |
+| 15 | `SequenciaDe3en3` | 10 |
+| 16 | `PositiuNegatiuFinsZero` | 10 |
+| 17 | `GranIPetit` | 10 |
+| 18 | `NombreDeXifres` | 10 |
 
 ### Categoria 3 — For
 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
-| 19 | `TaulaMultiplicarErrorsFor` | _pendent_ |
-| 20 | `CaraCreuFor` | _pendent_ |
+| 19 | `TaulaMultiplicarErrorsFor` | 10 |
+| 20 | `CaraCreuFor` | 10 |
 
 ### Categoria 4 — Acumuladors
 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
-| 21 | `SumaFinsZero` | _pendent_ |
-| 22 | `MitjanaNotes` | _pendent_ |
-| 23 | `SumaMesDe21` | _pendent_ |
-| 24 | `MultiplicarAmbSumes` | _pendent_ |
-| 25 | `MesGranIMesPetit` | _pendent_ |
-| 26 | `NotesMitjanaMaxMin` | _pendent_ |
+| 21 | `SumaFinsZero` | 10 |
+| 22 | `MitjanaNotes` | 10 |
+| 23 | `SumaMesDe21` | 10 |
+| 24 | `MultiplicarAmbSumes` | 10 |
+| 25 | `MesGranIMesPetit` | 10 |
+| 26 | `NotesMitjanaMaxMin` | 10 |
 
 ### Categoria 5 — Condicions d'acabament complexes
 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
-| 27 | `LoginTresIntents` | _pendent_ |
-| 28 | `EndevinaNumero10Intents` | _pendent_ |
-| 29 | `SetIMig` | _pendent_ |
-| 30 | `PedraPaperTisoraA3` | _pendent_ |
-| 31 | `TresIgualsSeguits` | _pendent_ |
+| 27 | `LoginTresIntents` | 10 |
+| 28 | `EndevinaNumero10Intents` | 10 |
+| 29 | `SetIMig` | 10 |
+| 30 | `PedraPaperTisoraA3` | 10 |
+| 31 | `TresIgualsSeguits` | 10 |
 
 ### Categoria 6 — Bucles encaixats
 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
-| 32 | `GraellaFiles` | _pendent_ |
-| 33 | `TriangleNumeros` | _pendent_ |
-| 34 | `TriangleAsteriscs` | _pendent_ |
-| 35 | `DiagonalAmbE` | _pendent_ |
-| 36 | `TriangleInvertit` | _pendent_ |
-| 37 | `TaulaDivisors` | _pendent_ |
-| 38 | `GeneradorTaulaHTML` | _pendent_ |
+| 32 | `GraellaFiles` | 10 |
+| 33 | `TriangleNumeros` | 10 |
+| 34 | `TriangleAsteriscs` | 10 |
+| 35 | `DiagonalAmbE` | 10 |
+| 36 | `TriangleInvertit` | 10 |
+| 37 | `TaulaDivisors` | 10 |
+| 38 | `GeneradorTaulaHTML` | 10 |
 
 ## Enunciats
 
