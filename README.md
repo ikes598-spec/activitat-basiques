@@ -109,6 +109,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 33 | `TriangleNumeros` | _pendent_ |
 | 34 | `TriangleAsteriscs` | _pendent_ |
 | 35 | `DiagonalAmbE` | _pendent_ |
+| 36 | `TriangleInvertit` | _pendent_ |
 
 ## Enunciats
 
@@ -851,4 +852,21 @@ E * * * * * * * *
 * * * * * * E * *
 * * * * * * * E *
 * * * * * * * * E
+```
+
+#### 36 — Triangle invertit d'asteriscs (`TriangleInvertit`)
+Mostra per pantalla el triangle invertit d'asteriscs següent, amb dos bucles `for`
+encaixats (la primera fila amb 9 asteriscs, i cada fila següent amb un asterisc
+menys):
+
+```
+* * * * * * * * *
+* * * * * * * *
+* * * * * * *
+* * * * * *
+* * * * *
+* * * *
+* * *
+* *
+*
 ```
