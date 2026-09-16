@@ -88,6 +88,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 22 | `MitjanaNotes` | _pendent_ |
 | 23 | `SumaMesDe21` | _pendent_ |
 | 24 | `MultiplicarAmbSumes` | _pendent_ |
+| 25 | `MesGranIMesPetit` | _pendent_ |
 
 ### Categoria 5 — _(pendent)_
 
@@ -584,4 +585,19 @@ Operand 1:
 Operand 2:
 4
 5 + 5 + 5 + 5 = 20
+```
+
+#### 25 — Més gran i més petit (`MesGranIMesPetit`)
+Entra per teclat 20 números i troba'n el valor més gran i el més petit, comparant
+cada número llegit amb els valors trobats fins ara.
+
+```
+Introdueix un número:
+5
+Introdueix un número:
+2
+Introdueix un número:
+3
+...
+El número més gran és: 15 i el més petit: 2
 ```
