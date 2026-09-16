@@ -58,6 +58,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 07 | `TaulaDel6` | _pendent_ |
 | 08 | `TaulaMultiplicar` | _pendent_ |
 | 09 | `MajusculaMinuscula` | _pendent_ |
+| 10 | `NumerosDeNa1` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -288,4 +289,28 @@ Entra un caràcter: Z
 és una lletra majúscula
 Entra un caràcter: 1
 no és una lletra
+```
+
+#### 10 — Números de N fins a 1 (`NumerosDeNa1`)
+Entra un número enter per teclat i mostra els valors que van des del número entrat
+fins a l'1, un per línia.
+
+```
+Entra un número:
+15
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
 ```
