@@ -5,7 +5,7 @@ Cada activitat és un programa Java amb un `main`. La majoria llegeixen dades de
 són a `src/main/java/`.
 
 Algunes activitats **no tenen una sortida fixa** perquè depenen de números generats a
-l'atzar amb `Random` (02, 11, 12, 14, 20 i 28). En aquestes, el professor revisarà que la **lògica** sigui
+l'atzar amb `Random` (02, 11, 12, 14, 20, 28 i 29). En aquestes, el professor revisarà que la **lògica** sigui
 correcta llegint el codi, no que la sortida coincideixi exactament amb cap exemple.
 
 ## Com treballar
@@ -97,6 +97,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 |----|--------|-----------|
 | 27 | `LoginTresIntents` | _pendent_ |
 | 28 | `EndevinaNumero10Intents` | _pendent_ |
+| 29 | `SetIMig` | _pendent_ |
 
 ### Categoria 6 — _(pendent)_
 
@@ -693,3 +694,37 @@ L'has encertat!!
 ```
 (sortida diferent cada vegada que s'executa; si s'esgoten els 10 intents sense
 encertar, el programa informa'n l'usuari.)
+
+#### 29 — El set i mig (`SetIMig`)
+El set i mig és un joc de cartes de la baralla espanyola: es tracta d'acostar-se al
+7 i 1/2 sense sobrepassar-lo. Les cartes de l'1 al 7 valen el seu número; la sota,
+el cavall i el rei valen 1/2 punt.
+
+El jugador fa una aposta i, a cada torn, l'ordinador li dona una carta aleatòria
+(un número de l'1 al 10: el 8 és la sota, el 9 el cavall i el 10 el rei). Mentre no
+se superi el 7 i 1/2, el jugador pot triar si es planta o vol una altra carta.
+
+⛔ Com a les activitats 27 i 28, la condició de sortida del `while` ha de combinar
+"encara no s'ha superat el 7 i 1/2" **i** "el jugador encara vol seguir" (sense
+`break`).
+
+Al final del joc, es mostra un d'aquests missatges:
+- Si se supera el 7 i 1/2: `Has Perdut!!!!`
+- Si s'arriba exactament a 7 i 1/2: `Has Guanyat <el doble de l'aposta> euros.`
+- Si el jugador es planta abans: `El jugador es planta!!!`
+
+> Aquesta activitat fa servir `Random`, no té una sortida fixa per provar.
+
+```
+Quant vols apostar?
+10
+Has tret un 4 (val 4.0 punts). Portes 4.0 punts.
+Vols una altra carta? (s/n)
+s
+Has tret un rei (val 0.5 punts). Portes 4.5 punts.
+Vols una altra carta? (s/n)
+s
+Has tret un 4 (val 4.0 punts). Portes 8.5 punts.
+Has Perdut!!!!
+```
+(sortida diferent cada vegada que s'executa, ja que les cartes són aleatòries.)
