@@ -4,6 +4,10 @@ Cada activitat és un programa Java amb un `main`. La majoria llegeixen dades de
 (amb `Scanner`) i repeteixen una acció amb bucles `for`, `while` o `do-while`. Els fitxers
 són a `src/main/java/`.
 
+Algunes activitats **no tenen una sortida fixa** perquè depenen de números generats a
+l'atzar amb `Random` (02). En aquestes, el professor revisarà que la **lògica** sigui
+correcta llegint el codi, no que la sortida coincideixi exactament amb cap exemple.
+
 ## Com treballar
 
 1. Obre la carpeta a **VS Code** (accepta instal·lar les extensions recomanades).
@@ -46,6 +50,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
 | 01 | `TemperaturaBucle` | _pendent_ |
+| 02 | `NumerosAleatoris` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -97,3 +102,18 @@ Introdueix la temperatura en Fahrenheit (5/5):
 176
 176.0 °F equivalen a 80.0 °C
 ```
+
+#### 02 — Números aleatoris (`NumerosAleatoris`)
+Genera 50 números aleatoris entre 1 i 15 (tots dos inclosos) i mostra'ls per pantalla,
+un per línia.
+
+> Aquesta activitat fa servir `Random`, no té una sortida fixa per provar.
+
+```
+6
+14
+1
+9
+...
+```
+(50 línies en total — sortida diferent cada vegada que s'executa.)
