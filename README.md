@@ -110,6 +110,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 34 | `TriangleAsteriscs` | _pendent_ |
 | 35 | `DiagonalAmbE` | _pendent_ |
 | 36 | `TriangleInvertit` | _pendent_ |
+| 37 | `TaulaDivisors` | _pendent_ |
 
 ## Enunciats
 
@@ -869,4 +870,32 @@ menys):
 * * *
 * *
 *
+```
+
+#### 37 — Taula de divisors i dividends (`TaulaDivisors`)
+Genera una taula amb, verticalment, els divisors de l'1 al 10, i horitzontalment,
+els dividends (un rang de números que entres per teclat, per exemple del 50 al
+60). Omple les caselles d'intersecció amb un asterisc (`*`) si el dividend és
+divisible pel divisor, o amb un guió (`-`) si no ho és.
+
+> Nota: a la imatge original de l'enunciat, les caselles no divisibles apareixen
+> en blanc en lloc d'un guió — sembla que es va perdre en copiar la taula com a
+> text. He seguit l'enunciat escrit, que demana explícitament el guió.
+
+```
+Entra l'inici dels dividends:
+50
+Entra el final dels dividends:
+60
+     50  51  52  53  54  55  56  57  58  59  60
+  1   *   *   *   *   *   *   *   *   *   *   *
+  2   *   -   *   -   *   -   *   -   *   -   *
+  3   -   *   -   -   *   -   -   *   -   -   *
+  4   -   -   *   -   -   -   *   -   -   -   *
+  5   *   -   -   -   -   *   -   -   -   -   *
+  6   -   -   -   -   *   -   -   -   -   -   *
+  7   -   -   -   -   -   -   *   -   -   -   -
+  8   -   -   -   -   -   -   *   -   -   -   -
+  9   -   -   -   -   *   -   -   -   -   -   -
+ 10   *   -   -   -   -   -   -   -   -   -   *
 ```
