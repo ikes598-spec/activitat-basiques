@@ -106,6 +106,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
 | 32 | `GraellaFiles` | _pendent_ |
+| 33 | `TriangleNumeros` | _pendent_ |
 
 ## Enunciats
 
@@ -798,5 +799,21 @@ extern per a les 8 files i un d'intern per a les 9 columnes):
 1 2 3 4 5 6 7 8 9
 1 2 3 4 5 6 7 8 9
 1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+```
+
+#### 33 — Triangle de números (`TriangleNumeros`)
+Implementa un programa que mostri per pantalla, amb dos bucles `for` encaixats, el
+triangle de números següent:
+
+```
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8
 1 2 3 4 5 6 7 8 9
 ```
