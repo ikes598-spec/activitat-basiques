@@ -52,6 +52,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 01 | `TemperaturaBucle` | _pendent_ |
 | 02 | `NumerosAleatoris` | _pendent_ |
 | 03 | `PositiuNegatiuZeroBucle` | _pendent_ |
+| 04 | `TemperaturaBucleN` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -139,4 +140,27 @@ Entra el número 7: 10
 és positiu
 Entra el número 8: -3
 és negatiu
+```
+
+#### 04 — Temperatures en bucle, quantitat per teclat (`TemperaturaBucleN`)
+Escriu un programa que demani a l'usuari quantes temperatures vol convertir (N) i,
+amb un bucle, li demani N temperatures en graus Fahrenheit i mostri per cadascuna
+l'equivalent en graus Celsius:
+
+```java
+temperatureC = ((temperatureF - 32) * 5) / 9;
+```
+
+```
+Quantes temperatures vols convertir?
+3
+Entra la temperatura:
+212
+212.0 °F equivalen a 100.0 °C
+Entra la temperatura:
+32
+32.0 °F equivalen a 0.0 °C
+Entra la temperatura:
+68
+68.0 °F equivalen a 20.0 °C
 ```
