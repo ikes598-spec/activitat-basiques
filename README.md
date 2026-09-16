@@ -5,7 +5,7 @@ Cada activitat és un programa Java amb un `main`. La majoria llegeixen dades de
 són a `src/main/java/`.
 
 Algunes activitats **no tenen una sortida fixa** perquè depenen de números generats a
-l'atzar amb `Random` (02 i 11). En aquestes, el professor revisarà que la **lògica** sigui
+l'atzar amb `Random` (02, 11 i 12). En aquestes, el professor revisarà que la **lògica** sigui
 correcta llegint el codi, no que la sortida coincideixi exactament amb cap exemple.
 
 ## Com treballar
@@ -60,6 +60,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 09 | `MajusculaMinuscula` | _pendent_ |
 | 10 | `NumerosDeNa1` | _pendent_ |
 | 11 | `CaraCreu` | _pendent_ |
+| 12 | `ParellsISenarsAleatoris` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -328,3 +329,16 @@ Cares: 46
 Creus: 54
 ```
 (el total sempre suma 100 — la sortida concreta varia cada execució.)
+
+#### 12 — Parells i senars, aleatoris (`ParellsISenarsAleatoris`)
+Genera un número de números aleatoris (entre 1 i 100) segons indiqui l'usuari per
+teclat, i compta quants són parells i quants són senars.
+
+> Aquesta activitat fa servir `Random`, no té una sortida fixa per provar.
+
+```
+Quants números vols generar?
+15
+Han sortit 7 números parells i 8 senars
+```
+(el total de parells + senars sempre suma N — la sortida concreta varia cada execució.)
