@@ -111,6 +111,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 35 | `DiagonalAmbE` | _pendent_ |
 | 36 | `TriangleInvertit` | _pendent_ |
 | 37 | `TaulaDivisors` | _pendent_ |
+| 38 | `GeneradorTaulaHTML` | _pendent_ |
 
 ## Enunciats
 
@@ -898,4 +899,46 @@ Entra el final dels dividends:
   8   -   -   -   -   -   -   *   -   -   -   -
   9   -   -   -   -   *   -   -   -   -   -   -
  10   *   -   -   -   -   -   -   -   -   -   *
+```
+
+#### 38 — Generador de taula HTML (`GeneradorTaulaHTML`)
+Demana a l'usuari el número de files i de columnes i genera, amb dos bucles `for`
+encaixats, el codi HTML d'una taula on cada cel·la mostri "fila,columna". El
+resultat es mostra per consola.
+
+```
+Entra el número de files:
+4
+Entra el número de columnes:
+5
+<table border='1'>
+    <tr>
+        <td>1,1</td>
+        <td>1,2</td>
+        <td>1,3</td>
+        <td>1,4</td>
+        <td>1,5</td>
+    </tr>
+    <tr>
+        <td>2,1</td>
+        <td>2,2</td>
+        <td>2,3</td>
+        <td>2,4</td>
+        <td>2,5</td>
+    </tr>
+    <tr>
+        <td>3,1</td>
+        <td>3,2</td>
+        <td>3,3</td>
+        <td>3,4</td>
+        <td>3,5</td>
+    </tr>
+    <tr>
+        <td>4,1</td>
+        <td>4,2</td>
+        <td>4,3</td>
+        <td>4,4</td>
+        <td>4,5</td>
+    </tr>
+</table>
 ```
