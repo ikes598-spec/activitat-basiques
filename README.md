@@ -75,7 +75,9 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 
 ### Categoria 3 — For
 
-_(pendent)_
+| #  | Classe | Puntuació |
+|----|--------|-----------|
+| 19 | `TaulaMultiplicarErrorsFor` | _pendent_ |
 
 ### Categoria 4 — _(pendent)_
 
@@ -465,4 +467,36 @@ S'han fet 4 divisions fins obtenir un quocient 0, per tant el número té 4 xifr
 Entra un número enter positiu:
 1234
 El número 1234 té 4 xifres.
+```
+
+### Categoria 3 — For
+
+#### 19 — Taula de multiplicar amb comptador d'errors, amb for (`TaulaMultiplicarErrorsFor`)
+Igual que l'activitat 13 (demanar la taula de multiplicar d'un número entrat per
+teclat i comptar els errors), però implementat fent servir un bucle `for`.
+
+```
+Entra un número:
+6
+6 × 1 = 6
+correcte!
+6 × 2 = 10
+incorrecte!
+6 × 3 = 18
+correcte!
+6 × 4 = 24
+correcte!
+6 × 5 = 30
+correcte!
+6 × 6 = 30
+incorrecte!
+6 × 7 = 42
+correcte!
+6 × 8 = 48
+correcte!
+6 × 9 = 54
+correcte!
+6 × 10 = 60
+correcte!
+Has comès 2 errors!
 ```
