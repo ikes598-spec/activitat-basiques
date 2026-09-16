@@ -57,6 +57,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 06 | `NumerosDe1aN` | _pendent_ |
 | 07 | `TaulaDel6` | _pendent_ |
 | 08 | `TaulaMultiplicar` | _pendent_ |
+| 09 | `MajusculaMinuscula` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -252,4 +253,39 @@ Entra un número:
 7 × 8 = 56
 7 × 9 = 63
 7 × 10 = 70
+```
+
+#### 09 — Majúscula, minúscula o no és una lletra (`MajusculaMinuscula`)
+Escriu un programa que demani 10 cops a l'usuari, per teclat, un caràcter, i
+determini si el caràcter entrat és una lletra majúscula, una lletra minúscula, o no
+és una lletra.
+
+Recorda: els caràcters (`char`) tenen assignat un codi numèric i, per tant, es poden
+comparar amb els operadors `<`, `>`, `==`... Per exemple:
+```java
+char lletra = 'd';
+if (lletra > 'a') { ... }
+```
+
+```
+Entra un caràcter: D
+és una lletra majúscula
+Entra un caràcter: x
+és una lletra minúscula
+Entra un caràcter: 5
+no és una lletra
+Entra un caràcter: ?
+no és una lletra
+Entra un caràcter: M
+és una lletra majúscula
+Entra un caràcter: z
+és una lletra minúscula
+Entra un caràcter: @
+no és una lletra
+Entra un caràcter: a
+és una lletra minúscula
+Entra un caràcter: Z
+és una lletra majúscula
+Entra un caràcter: 1
+no és una lletra
 ```
