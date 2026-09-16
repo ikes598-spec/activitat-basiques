@@ -5,7 +5,7 @@ Cada activitat és un programa Java amb un `main`. La majoria llegeixen dades de
 són a `src/main/java/`.
 
 Algunes activitats **no tenen una sortida fixa** perquè depenen de números generats a
-l'atzar amb `Random` (02, 11 i 12). En aquestes, el professor revisarà que la **lògica** sigui
+l'atzar amb `Random` (02, 11, 12 i 14). En aquestes, el professor revisarà que la **lògica** sigui
 correcta llegint el codi, no que la sortida coincideixi exactament amb cap exemple.
 
 ## Com treballar
@@ -65,7 +65,9 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 
 ### Categoria 2 — Condicions d'acabament simples
 
-_(pendent)_
+| #  | Classe | Puntuació |
+|----|--------|-----------|
+| 14 | `GeneraFinsAl12` | _pendent_ |
 
 ### Categoria 3 — _(pendent)_
 
@@ -374,3 +376,25 @@ correcte!
 correcte!
 Has comès 2 errors!
 ```
+
+### Categoria 2 — Condicions d'acabament simples
+
+#### 14 — Genera fins al 12 (`GeneraFinsAl12`)
+Genera un número aleatori entre 0 i 15. Repeteix-ho fins que aquest número sigui el
+12: per cada número generat (que no sigui el 12), imprimeix-lo, així com la
+distància (en valor absolut) respecte al 12. Quan finalment surti el 12 (sense
+imprimir-lo), el programa acaba mostrant quantes iteracions s'han necessitat per
+assolir l'objectiu.
+
+> Aquesta activitat fa servir `Random`, no té una sortida fixa per provar.
+
+```
+El número generat és: 5, falten 7 per assolir l'objectiu.
+El número generat és: 4, falten 8 per assolir l'objectiu.
+El número generat és: 4, falten 8 per assolir l'objectiu.
+El número generat és: 7, falten 5 per assolir l'objectiu.
+El número generat és: 8, falten 4 per assolir l'objectiu.
+Objectiu assolit en: 6 iteracions
+```
+(sortida diferent cada vegada que s'executa; el nombre de línies sempre és
+`iteracions - 1`, ja que el 12 que tanca el bucle no s'imprimeix.)
