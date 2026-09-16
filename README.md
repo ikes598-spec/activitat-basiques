@@ -107,6 +107,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 |----|--------|-----------|
 | 32 | `GraellaFiles` | _pendent_ |
 | 33 | `TriangleNumeros` | _pendent_ |
+| 34 | `TriangleAsteriscs` | _pendent_ |
 
 ## Enunciats
 
@@ -816,4 +817,20 @@ triangle de números següent:
 1 2 3 4 5 6 7
 1 2 3 4 5 6 7 8
 1 2 3 4 5 6 7 8 9
+```
+
+#### 34 — Triangle d'asteriscs (`TriangleAsteriscs`)
+Mostra per pantalla el triangle d'asteriscs següent (igual que l'activitat 33, però
+amb asteriscs en lloc de números):
+
+```
+*
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
+* * * * * * *
+* * * * * * * *
+* * * * * * * * *
 ```
