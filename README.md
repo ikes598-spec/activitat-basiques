@@ -37,7 +37,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 01 (la numeració **no torna a començar** a cada categoria nova).
 
 1. Comptadors
-2. _(pendent)_
+2. Condicions d'acabament simples
 3. _(pendent)_
 4. _(pendent)_
 5. _(pendent)_
@@ -63,7 +63,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 12 | `ParellsISenarsAleatoris` | _pendent_ |
 | 13 | `TaulaMultiplicarErrors` | _pendent_ |
 
-### Categoria 2 — _(pendent)_
+### Categoria 2 — Condicions d'acabament simples
 
 _(pendent)_
 
