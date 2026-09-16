@@ -68,6 +68,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
 | 14 | `GeneraFinsAl12` | _pendent_ |
+| 15 | `SequenciaDe3en3` | _pendent_ |
 
 ### Categoria 3 — _(pendent)_
 
@@ -398,3 +399,13 @@ Objectiu assolit en: 6 iteracions
 ```
 (sortida diferent cada vegada que s'executa; el nombre de línies sempre és
 `iteracions - 1`, ja que el 12 que tanca el bucle no s'imprimeix.)
+
+#### 15 — Seqüència de 3 en 3, amb final per teclat (`SequenciaDe3en3`)
+Mostra per pantalla la seqüència 2, 5, 8, 11, 14, 17, 20... (de 3 en 3), fins a un
+final que marca l'usuari per teclat (sense superar-lo).
+
+```
+Quin ha de ser el final de la seqüència?
+30
+2, 5, 8, 11, 14, 17, 20, 23, 26, 29
+```
