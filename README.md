@@ -69,6 +69,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 |----|--------|-----------|
 | 14 | `GeneraFinsAl12` | _pendent_ |
 | 15 | `SequenciaDe3en3` | _pendent_ |
+| 16 | `PositiuNegatiuFinsZero` | _pendent_ |
 
 ### Categoria 3 — _(pendent)_
 
@@ -408,4 +409,20 @@ final que marca l'usuari per teclat (sense superar-lo).
 Quin ha de ser el final de la seqüència?
 30
 2, 5, 8, 11, 14, 17, 20, 23, 26, 29
+```
+
+#### 16 — Positiu o negatiu, fins al 0 (`PositiuNegatiuFinsZero`)
+Entra per teclat una seqüència de números acabada en 0 i, per cadascun (excepte el
+0 final), mostra si és positiu o negatiu. Quan s'entri el 0, acomiada't de
+l'usuari.
+
+```
+Introdueix un número: 11
+És positiu
+Introdueix un número: -2
+És negatiu
+Introdueix un número: 7
+És positiu
+Introdueix un número: 0
+Adeu!
 ```
