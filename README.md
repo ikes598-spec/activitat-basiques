@@ -55,6 +55,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 04 | `TemperaturaBucleN` | _pendent_ |
 | 05 | `HoresMinutsSegons` | _pendent_ |
 | 06 | `NumerosDe1aN` | _pendent_ |
+| 07 | `TaulaDel6` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -216,4 +217,20 @@ Entra un número:
 13
 14
 15
+```
+
+#### 07 — Taula de multiplicar del 6 (`TaulaDel6`)
+Imprimeix la taula de multiplicar del 6, de l'1 al 10, amb el format següent:
+
+```
+6 × 1 = 6
+6 × 2 = 12
+6 × 3 = 18
+6 × 4 = 24
+6 × 5 = 30
+6 × 6 = 36
+6 × 7 = 42
+6 × 8 = 48
+6 × 9 = 54
+6 × 10 = 60
 ```
