@@ -87,6 +87,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 21 | `SumaFinsZero` | _pendent_ |
 | 22 | `MitjanaNotes` | _pendent_ |
 | 23 | `SumaMesDe21` | _pendent_ |
+| 24 | `MultiplicarAmbSumes` | _pendent_ |
 
 ### Categoria 5 — _(pendent)_
 
@@ -571,4 +572,16 @@ Entra número: 5
 Entra número: 4
 Entra número: 3
 Més de 21! La suma dels números entrats és 22
+```
+
+#### 24 — Multiplicar amb sumes successives (`MultiplicarAmbSumes`)
+Multiplica dos números enters positius entrats per teclat mitjançant sumes
+successives (sumant el primer operand tantes vegades com indiqui el segon).
+
+```
+Operand 1:
+5
+Operand 2:
+4
+5 + 5 + 5 + 5 = 20
 ```
