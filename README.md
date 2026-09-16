@@ -85,6 +85,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
 | 21 | `SumaFinsZero` | _pendent_ |
+| 22 | `MitjanaNotes` | _pendent_ |
 
 ### Categoria 5 — _(pendent)_
 
@@ -532,4 +533,23 @@ Introdueix un número: 3
 La suma fins ara és 10
 Introdueix un número: 0
 La suma total dels números introduïts és: 10
+```
+
+#### 22 — Mitjana de notes (`MitjanaNotes`)
+Demana per teclat el número d'alumnes del grup i, per a cadascun, la seva nota.
+Acumula les notes en una variable `suma` i, en acabar, calcula i mostra la mitjana
+(la suma dividida entre el nombre d'alumnes).
+
+```
+Quants alumnes hi ha al grup?
+4
+Entra la nota de l'alumne 1:
+5
+Entra la nota de l'alumne 2:
+7
+Entra la nota de l'alumne 3:
+8
+Entra la nota de l'alumne 4:
+6
+La mitjana de les notes és: 6.5
 ```
