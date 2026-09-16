@@ -5,7 +5,7 @@ Cada activitat és un programa Java amb un `main`. La majoria llegeixen dades de
 són a `src/main/java/`.
 
 Algunes activitats **no tenen una sortida fixa** perquè depenen de números generats a
-l'atzar amb `Random` (02, 11, 12, 14, 20, 28 i 29). En aquestes, el professor revisarà que la **lògica** sigui
+l'atzar amb `Random` (02, 11, 12, 14, 20, 28, 29 i 30). En aquestes, el professor revisarà que la **lògica** sigui
 correcta llegint el codi, no que la sortida coincideixi exactament amb cap exemple.
 
 ## Com treballar
@@ -98,6 +98,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 27 | `LoginTresIntents` | _pendent_ |
 | 28 | `EndevinaNumero10Intents` | _pendent_ |
 | 29 | `SetIMig` | _pendent_ |
+| 30 | `PedraPaperTisoraA3` | _pendent_ |
 
 ### Categoria 6 — _(pendent)_
 
@@ -728,3 +729,28 @@ Has tret un 4 (val 4.0 punts). Portes 8.5 punts.
 Has Perdut!!!!
 ```
 (sortida diferent cada vegada que s'executa, ja que les cartes són aleatòries.)
+
+#### 30 — Pedra, paper o tisora, a 3 victòries (`PedraPaperTisoraA3`)
+Implementa el joc de pedra, paper o tisora contra l'ordinador (que genera la seva
+jugada a l'atzar: 0=pedra, 1=paper, 2=tisora). Es repeteix el joc fins que un dels
+dos jugadors aconsegueixi 3 victòries.
+
+⛔ Com a les activitats 27, 28 i 29, la condició de sortida del `while` ha de
+combinar "l'ordinador encara no té 3 victòries" **i** "l'usuari encara no té 3
+victòries" (sense `break`).
+
+> Aquesta activitat fa servir `Random`, no té una sortida fixa per provar.
+
+```
+Entra pedra, paper o tisora:
+pedra
+Ordinador ha tret: pedra
+Heu empatat!! Ordinador: 0 , tú: 0
+Entra pedra, paper o tisora:
+pedra
+Ordinador ha tret: paper
+Has perdut! Ordinador: 1 , tú: 0
+...
+```
+(sortida diferent cada vegada que s'executa; el joc acaba quan l'ordinador o
+l'usuari arriben a 3 victòries.)
