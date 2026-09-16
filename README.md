@@ -40,7 +40,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 2. Condicions d'acabament simples
 3. For
 4. Acumuladors
-5. _(pendent)_
+5. Condicions d'acabament complexes
 6. _(pendent)_
 
 ## Activitats (_puntuació pendent de tancar_)
@@ -91,7 +91,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 25 | `MesGranIMesPetit` | _pendent_ |
 | 26 | `NotesMitjanaMaxMin` | _pendent_ |
 
-### Categoria 5 — _(pendent)_
+### Categoria 5 — Condicions d'acabament complexes
 
 _(pendent)_
 
