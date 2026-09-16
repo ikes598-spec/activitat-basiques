@@ -41,7 +41,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 3. For
 4. Acumuladors
 5. Condicions d'acabament complexes
-6. _(pendent)_
+6. Bucles encaixats
 
 ## Activitats (_puntuació pendent de tancar_)
 
@@ -101,7 +101,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 30 | `PedraPaperTisoraA3` | _pendent_ |
 | 31 | `TresIgualsSeguits` | _pendent_ |
 
-### Categoria 6 — _(pendent)_
+### Categoria 6 — Bucles encaixats
 
 _(pendent)_
 
