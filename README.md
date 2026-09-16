@@ -5,7 +5,7 @@ Cada activitat és un programa Java amb un `main`. La majoria llegeixen dades de
 són a `src/main/java/`.
 
 Algunes activitats **no tenen una sortida fixa** perquè depenen de números generats a
-l'atzar amb `Random` (02). En aquestes, el professor revisarà que la **lògica** sigui
+l'atzar amb `Random` (02 i 11). En aquestes, el professor revisarà que la **lògica** sigui
 correcta llegint el codi, no que la sortida coincideixi exactament amb cap exemple.
 
 ## Com treballar
@@ -59,6 +59,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 08 | `TaulaMultiplicar` | _pendent_ |
 | 09 | `MajusculaMinuscula` | _pendent_ |
 | 10 | `NumerosDeNa1` | _pendent_ |
+| 11 | `CaraCreu` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -314,3 +315,16 @@ Entra un número:
 2
 1
 ```
+
+#### 11 — Cara o creu, 100 llançaments (`CaraCreu`)
+Simula el llançament d'una moneda 100 vegades (cara = 0, creu = 1) i compta quantes
+cares i quantes creus han sortit (n'hi ha prou amb una variable que compti les cares
+o les creus i s'incrementi ella mateixa d'un en un).
+
+> Aquesta activitat fa servir `Random`, no té una sortida fixa per provar.
+
+```
+Cares: 46
+Creus: 54
+```
+(el total sempre suma 100 — la sortida concreta varia cada execució.)
