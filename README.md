@@ -51,6 +51,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 |----|--------|-----------|
 | 01 | `TemperaturaBucle` | _pendent_ |
 | 02 | `NumerosAleatoris` | _pendent_ |
+| 03 | `PositiuNegatiuZeroBucle` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -117,3 +118,25 @@ un per línia.
 ...
 ```
 (50 línies en total — sortida diferent cada vegada que s'executa.)
+
+#### 03 — Positiu, negatiu o zero, en bucle (`PositiuNegatiuZeroBucle`)
+Entra per teclat 8 números i, per cadascun, mostra si és positiu, negatiu o zero.
+
+```
+Entra el número 1: 6
+és positiu
+Entra el número 2: -5
+és negatiu
+Entra el número 3: 0
+és un zero
+Entra el número 4: 4
+és positiu
+Entra el número 5: 0
+és un zero
+Entra el número 6: -1
+és negatiu
+Entra el número 7: 10
+és positiu
+Entra el número 8: -3
+és negatiu
+```
