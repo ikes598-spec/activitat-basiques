@@ -82,7 +82,9 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 
 ### Categoria 4 — Acumuladors
 
-_(pendent)_
+| #  | Classe | Puntuació |
+|----|--------|-----------|
+| 21 | `SumaFinsZero` | _pendent_ |
 
 ### Categoria 5 — _(pendent)_
 
@@ -513,3 +515,21 @@ Cares: 53
 Creus: 47
 ```
 (el total sempre suma 100 — la sortida concreta varia cada execució.)
+
+### Categoria 4 — Acumuladors
+
+#### 21 — Suma acumulada, fins al 0 (`SumaFinsZero`)
+Entra per teclat una seqüència de números acabada en 0 i vés-los sumant. Per cada
+número (que no sigui el 0), mostra la suma acumulada fins ara. Quan s'entri el 0,
+mostra la suma total.
+
+```
+Introdueix un número: 5
+La suma fins ara és 5
+Introdueix un número: 2
+La suma fins ara és 7
+Introdueix un número: 3
+La suma fins ara és 10
+Introdueix un número: 0
+La suma total dels números introduïts és: 10
+```
