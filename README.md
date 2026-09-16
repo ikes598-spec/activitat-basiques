@@ -54,6 +54,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 03 | `PositiuNegatiuZeroBucle` | _pendent_ |
 | 04 | `TemperaturaBucleN` | _pendent_ |
 | 05 | `HoresMinutsSegons` | _pendent_ |
+| 06 | `NumerosDe1aN` | _pendent_ |
 
 ### Categoria 2 — _(pendent)_
 
@@ -191,4 +192,28 @@ Entra els segons:
 Hores: 25
 Minuts: 0
 Segons: 0
+```
+
+#### 06 — Números d'1 fins a N (`NumerosDe1aN`)
+Entra un número enter per teclat i mostra tots els valors que van d'1 fins al número
+entrat, un per línia.
+
+```
+Entra un número:
+15
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
 ```
