@@ -103,7 +103,9 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 
 ### Categoria 6 — Bucles encaixats
 
-_(pendent)_
+| #  | Classe | Puntuació |
+|----|--------|-----------|
+| 32 | `GraellaFiles` | _pendent_ |
 
 ## Enunciats
 
@@ -780,4 +782,21 @@ Entra un número:
 Entra un número:
 4
 Has entrat 3 cops seguits el número 4. Adeu!
+```
+
+### Categoria 6 — Bucles encaixats
+
+#### 32 — Graella de files (`GraellaFiles`)
+Mostra per pantalla la figura següent, fent servir dos bucles `for` encaixats (un
+extern per a les 8 files i un d'intern per a les 9 columnes):
+
+```
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8 9
 ```
