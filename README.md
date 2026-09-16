@@ -71,6 +71,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 15 | `SequenciaDe3en3` | _pendent_ |
 | 16 | `PositiuNegatiuFinsZero` | _pendent_ |
 | 17 | `GranIPetit` | _pendent_ |
+| 18 | `NombreDeXifres` | _pendent_ |
 
 ### Categoria 3 — _(pendent)_
 
@@ -444,4 +445,24 @@ Gran = 586   Petit = 8
 Gran = 293   Petit = 16
 Gran = 146   Petit = 32
 Gran = 73   Petit = 64
+```
+
+#### 18 — Nombre de xifres (`NombreDeXifres`)
+Entra un número enter positiu i mostra quantes xifres té. Per saber-ho, dividim el
+número successivament entre 10 (prenent la part sencera) i repetim el procés fins
+obtenir un quocient 0; el nombre de divisions fetes és el nombre de xifres.
+
+Per exemple, amb `1234`:
+```
+1234/10 = 123
+123/10 = 12
+12/10 = 1
+1/10 = 0
+```
+S'han fet 4 divisions fins obtenir un quocient 0, per tant el número té 4 xifres.
+
+```
+Entra un número enter positiu:
+1234
+El número 1234 té 4 xifres.
 ```
