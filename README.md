@@ -86,6 +86,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 |----|--------|-----------|
 | 21 | `SumaFinsZero` | _pendent_ |
 | 22 | `MitjanaNotes` | _pendent_ |
+| 23 | `SumaMesDe21` | _pendent_ |
 
 ### Categoria 5 — _(pendent)_
 
@@ -552,4 +553,22 @@ Entra la nota de l'alumne 3:
 Entra la nota de l'alumne 4:
 6
 La mitjana de les notes és: 6.5
+```
+
+#### 23 — Suma fins a més de 21 (`SumaMesDe21`)
+L'usuari ha d'introduir enters positius entre 1 i 5. El programa avisa quan la suma
+dels números introduïts passi de 21, mostrant la suma i el missatge "més de 21".
+Si el número introduït no està entre 1 i 5, no se suma i es mostra "El número no
+és correcte!".
+
+```
+Entra número: 3
+Entra número: 5
+Entra número: 2
+Entra número: 8
+El número no és correcte!
+Entra número: 5
+Entra número: 4
+Entra número: 3
+Més de 21! La suma dels números entrats és 22
 ```
