@@ -99,6 +99,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 28 | `EndevinaNumero10Intents` | _pendent_ |
 | 29 | `SetIMig` | _pendent_ |
 | 30 | `PedraPaperTisoraA3` | _pendent_ |
+| 31 | `TresIgualsSeguits` | _pendent_ |
 
 ### Categoria 6 — _(pendent)_
 
@@ -754,3 +755,29 @@ Has perdut! Ordinador: 1 , tú: 0
 ```
 (sortida diferent cada vegada que s'executa; el joc acaba quan l'ordinador o
 l'usuari arriben a 3 victòries.)
+
+#### 31 — 3 números iguals seguits (`TresIgualsSeguits`)
+Llegeix una seqüència de números enters. El programa para de demanar números quan
+el mateix número s'ha introduït 3 vegades consecutives.
+
+```
+Entra un número:
+2
+Entra un número:
+2
+Entra un número:
+1
+Entra un número:
+5
+Entra un número:
+1
+Entra un número:
+1
+Entra un número:
+4
+Entra un número:
+4
+Entra un número:
+4
+Has entrat 3 cops seguits el número 4. Adeu!
+```
