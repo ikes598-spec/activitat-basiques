@@ -108,6 +108,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 32 | `GraellaFiles` | _pendent_ |
 | 33 | `TriangleNumeros` | _pendent_ |
 | 34 | `TriangleAsteriscs` | _pendent_ |
+| 35 | `DiagonalAmbE` | _pendent_ |
 
 ## Enunciats
 
@@ -833,4 +834,21 @@ amb asteriscs en lloc de números):
 * * * * * * *
 * * * * * * * *
 * * * * * * * * *
+```
+
+#### 35 — Diagonal amb E (`DiagonalAmbE`)
+Mostra per pantalla una graella de 9×9 amb dos bucles `for` encaixats: totes les
+posicions han de tenir un asterisc, excepte la diagonal (on `fila` és igual a
+`columna`), que ha de mostrar una `E`.
+
+```
+E * * * * * * * *
+* E * * * * * * *
+* * E * * * * * *
+* * * E * * * * *
+* * * * E * * * *
+* * * * * E * * *
+* * * * * * E * *
+* * * * * * * E *
+* * * * * * * * E
 ```
