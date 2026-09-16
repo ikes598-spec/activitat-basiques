@@ -5,7 +5,7 @@ Cada activitat és un programa Java amb un `main`. La majoria llegeixen dades de
 són a `src/main/java/`.
 
 Algunes activitats **no tenen una sortida fixa** perquè depenen de números generats a
-l'atzar amb `Random` (02, 11, 12, 14 i 20). En aquestes, el professor revisarà que la **lògica** sigui
+l'atzar amb `Random` (02, 11, 12, 14, 20 i 28). En aquestes, el professor revisarà que la **lògica** sigui
 correcta llegint el codi, no que la sortida coincideixi exactament amb cap exemple.
 
 ## Com treballar
@@ -96,6 +96,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | #  | Classe | Puntuació |
 |----|--------|-----------|
 | 27 | `LoginTresIntents` | _pendent_ |
+| 28 | `EndevinaNumero10Intents` | _pendent_ |
 
 ### Categoria 6 — _(pendent)_
 
@@ -670,3 +671,25 @@ fff
 Usuari o contrasenya incorrectes.
 Usuari bloquejat!
 ```
+
+#### 28 — Endevina el número, 10 intents (`EndevinaNumero10Intents`)
+Genera un número entre 1 i 100 i intenta endevinar-lo, amb un màxim de 10
+oportunitats. Cada vegada que entris un número, el programa et dirà si el número
+generat és més gran o més petit que el que has pensat (o si l'has encertat).
+
+⛔ Com a l'activitat 27, la condició de sortida del `while` ha de combinar "encara
+queden intents" **i** "encara no s'ha encertat" (sense `break`).
+
+> Aquesta activitat fa servir `Random`, no té una sortida fixa per provar.
+
+```
+Endevina un número que he generat comprès entre 1 i 100
+Entra un número (intent 1): 10
+El número que he generat és més gran que el que has pensat
+Entra un número (intent 2): 65
+El número que he generat és més petit que el que has pensat
+Entra un número (intent 3): 15
+L'has encertat!!
+```
+(sortida diferent cada vegada que s'executa; si s'esgoten els 10 intents sense
+encertar, el programa informa'n l'usuari.)
