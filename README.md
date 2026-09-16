@@ -70,6 +70,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 14 | `GeneraFinsAl12` | _pendent_ |
 | 15 | `SequenciaDe3en3` | _pendent_ |
 | 16 | `PositiuNegatiuFinsZero` | _pendent_ |
+| 17 | `GranIPetit` | _pendent_ |
 
 ### Categoria 3 — _(pendent)_
 
@@ -425,4 +426,22 @@ Introdueix un número: 7
 És positiu
 Introdueix un número: 0
 Adeu!
+```
+
+#### 17 — Gran i petit, apropant-se (`GranIPetit`)
+Entra per teclat dos números: un de gran (`gran`) i un de petit (`petit`). Amb un
+bucle `while`, mentre `gran` sigui més gran que `petit`, imprimeix els dos valors;
+a cada iteració, divideix `gran` entre 2 i multiplica `petit` per 2.
+
+```
+Entra el número gran:
+2345
+Entra el número petit:
+2
+Gran = 2345   Petit = 2
+Gran = 1172   Petit = 4
+Gran = 586   Petit = 8
+Gran = 293   Petit = 16
+Gran = 146   Petit = 32
+Gran = 73   Petit = 64
 ```
