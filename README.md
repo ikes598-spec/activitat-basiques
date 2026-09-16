@@ -39,7 +39,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 1. Comptadors
 2. Condicions d'acabament simples
 3. For
-4. _(pendent)_
+4. Acumuladors
 5. _(pendent)_
 6. _(pendent)_
 
@@ -80,7 +80,7 @@ Les activitats es reparteixen en 6 categories, però es numeren seqüencialment 
 | 19 | `TaulaMultiplicarErrorsFor` | _pendent_ |
 | 20 | `CaraCreuFor` | _pendent_ |
 
-### Categoria 4 — _(pendent)_
+### Categoria 4 — Acumuladors
 
 _(pendent)_
 
